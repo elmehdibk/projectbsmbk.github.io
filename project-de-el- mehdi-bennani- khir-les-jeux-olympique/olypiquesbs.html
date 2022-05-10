@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeux Olympiques</title>
+    <link rel="stylesheet" href="BS5/css/bootstrap.min.css">
+    <style>
+     body{
+      background-color: rgb(241, 158, 3);
+     }
+     .cn{
+       display: flex;
+     }
+     .card{
+       transition:transform  2s;
+       box-shadow: 5px 5px 15px black;
+       
+     }
+     .card:hover{ 
+                  transform: scale(103%);
+                  box-shadow: 5px 5px 20px black;
+     }
+      h3{
+        transition:transform  1s;
+        transform:translateY(-80%) ;
+        font-size: 0%;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     .card:hover h3{
+       font-size: 100%;
+       background-color:rgba(255, 166, 0, 0.685);
+       transform:translateY(-10%);
+     } 
+
+    </style>
+</head>
+<body>
+  <nav class="nav justify-content-center bg-dark"> 
+  <ul class="nav justify-content-center ">
+    <li class="nav-item"><a href="olypiquesbs.html"><img src="photo_s/olymp.png" width="60px"  alt="photo"></a></li>
+    <li class="nav-item">
+      <a class="nav-link  text-light" href="olypiquesbs.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" href="travai de el mehdi/halterbs.html">Haltérophilie</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" href="travai de el mehdi/judobs.html">Judo</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light " href="travai de el mehdi/tirbs.html">Tir à l'arc</a>
+    </li>
+  </ul>
+  </nav>
+  <div class="container mt-3 ">
+    <h1 class="text-center bg-light">Jeux Olympiques</h1>
+    <p class="text-center bg-light">Les Jeux Olympiques sont la seule compétition véritablement mondiale 
+        et multisport. Avec plus de 200 pays participant à plus de 400 épreuves
+         entre les Jeux d’Été et d’Hiver, les Jeux sont le seul endroit
+         où le monde se retrouve pour concourir, se sentir inspiré et être ensemble
+    </p>
+  </div>
+    <section class="container justify-content-center cn">
+      <div class="card" style="width: 18rem;">
+        <img src="photo_s/haltér.jpg" class="card-img-top  mt-5"  alt="...">
+        <div class="card-body">
+          <h3>Haltérophilie</h3>
+          <p class="card-text mt-3">L’haltérophilie a des origines très anciennes.
+            Pour preuve, elle était déjà présente lors des premiers Jeux Olympiques de l’ère moderne d’Athènes 1896.</p>
+            <a href="travai de el mehdi/halterbs.html" class="btn btn-primary">LIRE</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="photo_s/judo.jpg" height="auto" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>judo</h3>
+          <p class="card-text mt-4">Le judo est un dérivé du ju-jitsu, l’ancienne technique de combat à mains nues des guerriers samouraïs. 
+            L’objectif principal est de projeter son adversaire au sol et de le maintenir en position de soumission.</p>
+            <a href="travai de el mehdi/judobs.html" class="btn btn-primary mt-4">LIRE</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        
+        <img src="photo_s/tir.jpg"  class="card-img-top mt-5" alt="...">
+        <div class="card-body">
+          <h3>Tir à l'arc</h3>
+          <p class="card-text">Le tir à l’arc, l’un des plus anciens sports encore pratiqués, 
+            est étroitement lié au développement des civilisations. 
+            En tant qu’avancée culturelle, il est comparable à la découverte du feu ou à l’invention de la roue.</p>
+            <a href="travai de el mehdi/tirbs.html" class="btn btn-primary">LIRE</a>
+        </div>
+      </div>
+      
+    </section>
+    <footer class="p-3 mt-5 bg-dark">
+      <div class="text-light text-center">
+         <p class="copyright">project © 2022</p>
+      </div>
+  </footer> 
+    
+</body>
+</html>
